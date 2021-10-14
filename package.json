@@ -1,0 +1,16 @@
+{
+  "node": "14.18.0",
+  "name": "node-blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain sample for TypeScript.",
+  "main": "index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.10.1",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "dependencies": {}
+}

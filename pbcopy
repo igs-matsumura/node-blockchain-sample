@@ -1,0 +1,37 @@
+ブロックチェーンを生成します.
+1番目のブロックをマイニング
+2番目のブロックをマイニング
+{
+  "chain": [
+    {
+      "index": 0,
+      "previousHash": "0",
+      "timestamp": 1633669376079,
+      "data": {
+        "name": "Genesis Block"
+      },
+      "nonce": 3199974,
+      "hash": "00000e49b320b2470939bca295f806f37144944af944d3511d05a8eb1b51fa04"
+    },
+    {
+      "index": 1,
+      "previousHash": "00000e49b320b2470939bca295f806f37144944af944d3511d05a8eb1b51fa04",
+      "timestamp": 1633669379275,
+      "data": {
+        "name": "First Block"
+      },
+      "nonce": 985333,
+      "hash": "0000064ab96a872c9a40619b4abc15f7958990d7b029dd1b48ff8599d04d0f50"
+    },
+    {
+      "index": 2,
+      "previousHash": "0000064ab96a872c9a40619b4abc15f7958990d7b029dd1b48ff8599d04d0f50",
+      "timestamp": 1633669380249,
+      "data": {
+        "name": "Second Block"
+      },
+      "nonce": 350521,
+      "hash": "00000cc51f3e4ccf70facca4a584d231c8d1fdb91a6153163ce6312f22973318"
+    }
+  ]
+}
